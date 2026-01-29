@@ -1,0 +1,39 @@
+/* CSS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+    margin: 10%;
+}
+
+h1.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    font-size: 48px;
+}
+
+ul.blocklist {
+    list-style-type: none; /* Removes Bullets */
+    padding: 0;
+    margin: 0;
+}
+
+ul.blocklist a {
+    background-color:darkolivegreen;
+    color: white;
+    margin-bottom: 5px;
+    padding: 15px;
+    display: block;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: antiquewhite;
+    text-decoration: none;
+}
